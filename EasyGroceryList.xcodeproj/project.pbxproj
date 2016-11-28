@@ -15,6 +15,17 @@
 		277ACEA11DEB78BB00B4A587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277ACE9F1DEB78BB00B4A587 /* LaunchScreen.storyboard */; };
 		277ACEAC1DEB78BB00B4A587 /* EasyGroceryListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACEAB1DEB78BB00B4A587 /* EasyGroceryListTests.swift */; };
 		277ACEB71DEB78BB00B4A587 /* EasyGroceryListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACEB61DEB78BB00B4A587 /* EasyGroceryListUITests.swift */; };
+		277ACEC61DEB80CD00B4A587 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACEC51DEB80CD00B4A587 /* DataViewController.swift */; };
+		277ACEC91DEB886100B4A587 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACEC81DEB886100B4A587 /* UIViewController+Extension.swift */; };
+		277ACECB1DEB888700B4A587 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACECA1DEB888700B4A587 /* Array+Extension.swift */; };
+		277ACECF1DEB893000B4A587 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACECE1DEB893000B4A587 /* DataManager.swift */; };
+		277ACED11DEBA62E00B4A587 /* EGListName+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACED01DEBA62E00B4A587 /* EGListName+CoreDataClass.swift */; };
+		277ACED31DEBA7E200B4A587 /* EGListName+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACED21DEBA7E200B4A587 /* EGListName+CoreDataProperties.swift */; };
+		277ACED51DEBB18C00B4A587 /* EGItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACED41DEBB18C00B4A587 /* EGItem+CoreDataClass.swift */; };
+		277ACED71DEBB1A600B4A587 /* EGItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACED61DEBB1A600B4A587 /* EGItem+CoreDataProperties.swift */; };
+		277ACED91DEBCAF000B4A587 /* AddListDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACED81DEBCAF000B4A587 /* AddListDataViewController.swift */; };
+		277ACEDB1DEBE15800B4A587 /* DataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACEDA1DEBE15800B4A587 /* DataDetailViewController.swift */; };
+		277ACEDD1DEBE1E700B4A587 /* AddItemDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277ACEDC1DEBE1E700B4A587 /* AddItemDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		277ACEB21DEB78BB00B4A587 /* EasyGroceryListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyGroceryListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		277ACEB61DEB78BB00B4A587 /* EasyGroceryListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyGroceryListUITests.swift; sourceTree = "<group>"; };
 		277ACEB81DEB78BB00B4A587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277ACEC51DEB80CD00B4A587 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		277ACEC81DEB886100B4A587 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		277ACECA1DEB888700B4A587 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		277ACECE1DEB893000B4A587 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		277ACED01DEBA62E00B4A587 /* EGListName+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EGListName+CoreDataClass.swift"; sourceTree = "<group>"; };
+		277ACED21DEBA7E200B4A587 /* EGListName+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EGListName+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		277ACED41DEBB18C00B4A587 /* EGItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EGItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		277ACED61DEBB1A600B4A587 /* EGItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EGItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		277ACED81DEBCAF000B4A587 /* AddListDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListDataViewController.swift; sourceTree = "<group>"; };
+		277ACEDA1DEBE15800B4A587 /* DataDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDetailViewController.swift; sourceTree = "<group>"; };
+		277ACEDC1DEBE1E700B4A587 /* AddItemDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +121,9 @@
 		277ACE921DEB78BB00B4A587 /* EasyGroceryList */ = {
 			isa = PBXGroup;
 			children = (
+				277ACECC1DEB88FE00B4A587 /* Data */,
+				277ACEC71DEB883200B4A587 /* Extensions */,
+				277ACEC41DEB808900B4A587 /* View Controllers */,
 				277ACE931DEB78BB00B4A587 /* AppDelegate.swift */,
 				277ACE951DEB78BB00B4A587 /* ViewController.swift */,
 				277ACE971DEB78BB00B4A587 /* Main.storyboard */,
@@ -126,6 +151,38 @@
 				277ACEB81DEB78BB00B4A587 /* Info.plist */,
 			);
 			path = EasyGroceryListUITests;
+			sourceTree = "<group>";
+		};
+		277ACEC41DEB808900B4A587 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				277ACEC51DEB80CD00B4A587 /* DataViewController.swift */,
+				277ACED81DEBCAF000B4A587 /* AddListDataViewController.swift */,
+				277ACEDA1DEBE15800B4A587 /* DataDetailViewController.swift */,
+				277ACEDC1DEBE1E700B4A587 /* AddItemDataViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		277ACEC71DEB883200B4A587 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				277ACEC81DEB886100B4A587 /* UIViewController+Extension.swift */,
+				277ACECA1DEB888700B4A587 /* Array+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		277ACECC1DEB88FE00B4A587 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				277ACECE1DEB893000B4A587 /* DataManager.swift */,
+				277ACED01DEBA62E00B4A587 /* EGListName+CoreDataClass.swift */,
+				277ACED21DEBA7E200B4A587 /* EGListName+CoreDataProperties.swift */,
+				277ACED41DEBB18C00B4A587 /* EGItem+CoreDataClass.swift */,
+				277ACED61DEBB1A600B4A587 /* EGItem+CoreDataProperties.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +322,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277ACEDB1DEBE15800B4A587 /* DataDetailViewController.swift in Sources */,
+				277ACEDD1DEBE1E700B4A587 /* AddItemDataViewController.swift in Sources */,
+				277ACEC61DEB80CD00B4A587 /* DataViewController.swift in Sources */,
 				277ACE9C1DEB78BB00B4A587 /* EasyGroceryList.xcdatamodeld in Sources */,
 				277ACE961DEB78BB00B4A587 /* ViewController.swift in Sources */,
+				277ACECF1DEB893000B4A587 /* DataManager.swift in Sources */,
+				277ACED31DEBA7E200B4A587 /* EGListName+CoreDataProperties.swift in Sources */,
+				277ACECB1DEB888700B4A587 /* Array+Extension.swift in Sources */,
+				277ACED51DEBB18C00B4A587 /* EGItem+CoreDataClass.swift in Sources */,
+				277ACED11DEBA62E00B4A587 /* EGListName+CoreDataClass.swift in Sources */,
+				277ACED91DEBCAF000B4A587 /* AddListDataViewController.swift in Sources */,
+				277ACEC91DEB886100B4A587 /* UIViewController+Extension.swift in Sources */,
 				277ACE941DEB78BB00B4A587 /* AppDelegate.swift in Sources */,
+				277ACED71DEBB1A600B4A587 /* EGItem+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +584,7 @@
 				277ACEBD1DEB78BB00B4A587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		277ACEBE1DEB78BB00B4A587 /* Build configuration list for PBXNativeTarget "EasyGroceryListTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +593,7 @@
 				277ACEC01DEB78BB00B4A587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		277ACEC11DEB78BB00B4A587 /* Build configuration list for PBXNativeTarget "EasyGroceryListUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +602,7 @@
 				277ACEC31DEB78BB00B4A587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
