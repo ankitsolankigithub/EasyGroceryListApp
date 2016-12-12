@@ -11,7 +11,6 @@ import UIKit
 class DataViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var dataTableView: UITableView?
-    
     let manager = DataManager.shared
     
     override func viewWillAppear(_ animated: Bool) {
