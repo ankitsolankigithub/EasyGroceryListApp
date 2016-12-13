@@ -26,3 +26,23 @@ extension String {
         return Int(self)
     }
 }
+
+protocol DismissableKeyboard {
+    func dismissKeyboard()
+}
+
+extension UIViewController: DismissableKeyboard {
+    @IBAction func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
+
+protocol CloseableController {
+    func close()
+}
+
+extension UIViewController: CloseableController {
+    @IBAction func close() {
+        dismiss(animated: UIView.areAnimationsEnabled, completion: nil)
+    }
+}

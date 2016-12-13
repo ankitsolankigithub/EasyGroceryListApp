@@ -42,3 +42,4 @@ class DataViewController: UIViewController, UITableViewDataSource, UITableViewDe
         manager.selectedIndex = indexPath.row
     }
 }
+
